@@ -4,7 +4,7 @@
 # Set name of csv file: replace the text in quotes with actual csv file name
 #  one_column_csv_file <- "example.csv"
 
-GoogleByCSV <- function(csv_filename = "", website = ""){
+GoogleByCSV <- function(csv_filename = "", website = "", header = FALSE){
   
   ## Assign variable website_string ----
     # [website] error check: not character vector
@@ -29,7 +29,7 @@ GoogleByCSV <- function(csv_filename = "", website = ""){
     }
     
     # Read in csv data file
-    csv_data <- read.csv(csv_filename)
+    csv_data <- read.csv(csv_filename, header = header)
    
     # Check for number of columns in csv file (must be 1)
     if (length(csv_data[1,]) != 1) {
