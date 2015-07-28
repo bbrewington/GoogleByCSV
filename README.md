@@ -1,7 +1,5 @@
 # GoogleByCSV README
-Function that outputs a csv file containing 2 columns: search terms, and google search query hyperlink.
-
-The user passes a one-column csv file (and optionally a website for search-by-site), and adds a column containing a google search query.  
+Function that reads a one-column csv file of search terms, and outputs a csv file containing 2 columns: search terms, and google search query hyperlink.
 
 ## How to Use
 **Language: R**
