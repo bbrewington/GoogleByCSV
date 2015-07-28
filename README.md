@@ -8,7 +8,7 @@ The user passes a one-column csv file (and optionally a website for search-by-si
 
 1. Load these files into your working directory
     * GoogleByCSV.R script
-    * 1-column CSV file
+    * 1-column CSV file (included "example.csv" in this repo)
 2. Call GoogleByCSV function (arguments shown in bullets below)
     * **csv_filename**: character string of 1-column CSV file
     * _optional_ **website**: character string of the site you'd like to append to the search query (via Google method "site:")
